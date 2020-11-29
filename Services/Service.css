@@ -1,0 +1,49 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://image.freepik.com/free-photo/office-desk-top-view-with-laptop-computer-coffee-notebook-paper-pencil-copy-space_35674-735.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff !important;
+}
+
+.services {
+  margin: 90px 100px;
+  text-align: center;
+}
+
+h1 {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+h1:after {
+  content: "";
+  background: white;
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 10px auto;
+}
+
+.rowss {
+  display: flex;
+  margin-top: 130px;
+  width: 96%;
+  margin-left: 39px;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 20px auto;
+  padding: 10px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.col-md-3:hover {
+  box-shadow: 5px 7px 9px -3px rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
